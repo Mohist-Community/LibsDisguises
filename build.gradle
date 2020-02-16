@@ -2,8 +2,8 @@ plugins {
     id 'java'
 }
 
-group 'red.mohsit.mohistmodsessentials'
-version '0.2-SNAPSHOT'
+group 'me.libraryaddict.disguise'
+version '9.5.2'
 
 sourceCompatibility = 1.8
 
@@ -15,10 +15,6 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 
     compile files('libs/MohistDev.jar')
-    compile files('libs/Vault.jar')
     compile files('libs/ProtocolLib.jar')
-    compile files('libs/PlaceholderAPI-2.10.4.jar')
     compile files('libs/spigot-1.12.2.jar')
-    compile 'commons-lang:commons-lang:2.6'
-    compile 'org.projectlombok:lombok:1.18.12'
 }

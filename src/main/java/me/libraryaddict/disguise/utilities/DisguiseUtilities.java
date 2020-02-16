@@ -866,7 +866,7 @@ public class DisguiseUtilities {
 
         try {
             Object server = ReflectionManager.getNmsMethod("MinecraftServer", "getServer").invoke(null);
-            Object world = ((List) server.getClass().getField("worlds").get(server)).get(0);
+            Object world = ((List) server.getClass().getField("worldServerList").get(server)).get(0);
 
             Object bedChunk = ReflectionManager.getNmsClass("Chunk")
                     .getConstructor(ReflectionManager.getNmsClass("World"), int.class, int.class)

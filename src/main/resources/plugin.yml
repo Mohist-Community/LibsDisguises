@@ -3,7 +3,7 @@ main: me.libraryaddict.disguise.LibsDisguises
 description: A disguise plugin with various disguises.
 version: 9.5.2
 author: libraryaddict
-authors: [Byteflux, Navid K.]
+authors: [Byteflux, Navid K., Mohist-Community]
 depend: [ProtocolLib]
 commands:
     libsdisguises:

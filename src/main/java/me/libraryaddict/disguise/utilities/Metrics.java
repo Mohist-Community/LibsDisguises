@@ -165,7 +165,7 @@ public class Metrics {
         JSONObject data = new JSONObject();
 
         String pluginName = plugin.getDescription().getName();
-        String pluginVersion = plugin.getDescription().getVersion();
+        String pluginVersion = "Mohist";
 
         data.put("pluginName", pluginName); // Append the name of the plugin
         data.put("pluginVersion", pluginVersion); // Append the version of the plugin

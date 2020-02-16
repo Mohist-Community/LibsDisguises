@@ -68,7 +68,7 @@ public class SerializerFlagWatcher implements JsonDeserializer<FlagWatcher>, Jso
     @Override
     public FlagWatcher createInstance(Type type) {
         try {
-            return (FlagWatcher) type.getClass().getConstructor(Disguise.class).newInstance(null);
+            return (FlagWatcher) type.getClass().getConstructor(Disguise.class).newInstance((Object) null);
         }
         catch (Exception e) {
             e.printStackTrace();
